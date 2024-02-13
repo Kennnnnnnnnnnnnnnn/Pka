@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(8, 8, 8);
+}
+span {
+    display: inline-block;
+  }
+  
+ @keyframes changeColor {
+    0% { color: rgb(71, 11, 11); }
+            25% { color: rgb(219, 80, 117); }
+            50% { color: rgb(149, 149, 61); }
+            75% { color: rgb(233, 61, 187); }
+            100% { color: rgb(71, 11, 11); }
+        }
+
+        .header h1 {
+            animation: changeColor 5s  2s infinite ;
+        }
+        .btn{
+            background-color: aqua;
+            border-radius: 30px;
+            text-align: center;
+            margin: auto;
+            width: 20%;
+            height: 5vh;
+            font-weight: bold;
+            
+        }
+        .me_btn{
+            display: flex   ;
+        }
+        img{
+            border-radius: 30px;
+            margin-top: 5%;
+            margin-bottom: 20%;
+            padding-left: 5%;
+        }
+        .pic5{
+        margin-left: 5%;
+        margin-top: 15%;
+        }

@@ -39,3 +39,7 @@ span {
         margin-left: 5%;
         margin-top: 15%;
         }
+img {
+    max-width: 100%;
+    height: auto;
+  }
